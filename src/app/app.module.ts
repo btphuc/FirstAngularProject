@@ -2,10 +2,26 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+// header
+import {HeaderComponent} from './Header/header.component';
+
+// shopping list
+import {ShoppinglistComponent} from './ShoppingList/shoppinglist.component';
+import {ShoppinglistitemComponent} from './ShoppingList/ShoppingListItem/shoppinglistitem.component';
+import {ShoppinglisteditComponent} from './ShoppingList/ShoppingListEdit/shoppinglistedit.component';
+
+// recipe book
+import {RecipebookComponent} from './RecipeBook/recipebook.component';
+import {RecipeitemComponent} from './RecipeBook/RecipeItem/recipeitem.component';
+import {RecipedetailComponent} from './RecipeBook/RecipeDetail/recipedetail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    ShoppinglistComponent,
+    ShoppinglisteditComponent,
+    ShoppinglistitemComponent
   ],
   imports: [
     BrowserModule
