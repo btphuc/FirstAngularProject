@@ -14,6 +14,7 @@ import {ShoppinglisteditComponent} from './ShoppingList/ShoppingListEdit/shoppin
 import {RecipebookComponent} from './RecipeBook/recipebook.component';
 import {RecipeitemComponent} from './RecipeBook/RecipeItem/recipeitem.component';
 import {RecipedetailComponent} from './RecipeBook/RecipeDetail/recipedetail.component';
+import {RecipelistComponent} from './RecipeBook/RecipeList/recipelist.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {RecipedetailComponent} from './RecipeBook/RecipeDetail/recipedetail.comp
     HeaderComponent,
     ShoppinglistComponent,
     ShoppinglisteditComponent,
-    ShoppinglistitemComponent
+    ShoppinglistitemComponent,
+    RecipelistComponent
   ],
   imports: [
     BrowserModule
